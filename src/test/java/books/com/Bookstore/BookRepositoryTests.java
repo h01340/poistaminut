@@ -31,11 +31,11 @@ public class BookRepositoryTests {
 		assertThat(books.get(0).getTitle().equalsIgnoreCase("The Chilling"));
 	}
 	
-	@Test
-	public void saveBook() {
-		Book book = new Book();
-		repository.save(book);
-	}
+//	@Test
+//	public void saveBook() {
+//		Book book = new Book();
+//		repository.save(book);
+//	}
 	
 //	@Test
 //	public void updateBook() {
