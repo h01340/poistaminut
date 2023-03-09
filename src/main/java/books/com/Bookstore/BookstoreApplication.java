@@ -36,10 +36,10 @@ public class BookstoreApplication{
 		
 		log.info("Save users");
 		ApplicationUser user1 = new ApplicationUser("Leo", "Ahopalo", "ADMIN", "admin",
-		"$2a$10$2Gm74iOxuJZsVVKIF47aiut3PBzMVI8REsQ.JngNDu/rrJoS8dum.");
+		"$2a$08$bCCcGjB03eulCWt3CY0AZew2rVzXFyouUolL5dkL/pBgFkUH9O4J2");
 			
 		ApplicationUser user2 = new ApplicationUser("Leo", "testi", "USER", "user", 
-		"$2a$10$2Gm74iOxuJZsVVKIF47aiut3PBzMVI8REsQ.JngNDu/rrJoS8dum.");
+		"$2a$06$3jYRJrg0ghaaypjZ/.g4SethoeA51ph3UD4kZi9oPkeMTpjKU5uo6");
 		applicationUserRepository.saveAll(Arrays.asList(user1, user2));
 			
 		log.info("saving categories");
