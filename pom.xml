@@ -64,12 +64,12 @@
 		    <artifactId>thymeleaf-extras-springsecurity6</artifactId>
 		</dependency>    	
 		
-		<!-- render.com -->
+		<!-- render.com 
 		<dependency>
 <groupId>junit</groupId>
 <artifactId>junit</artifactId>
  </dependency>
-
+-->
 	</dependencies>
 	<build>
 		<plugins>
